@@ -4,3 +4,9 @@
 }
 
 font-family: 'Norse Bold', Arial, sans-serif;
+
+.page {
+    display: flex;
+    flex-direction: row;
+    
+}
