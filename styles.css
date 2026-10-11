@@ -1,12 +1,29 @@
 @font-face {
     font-family: 'Norse Bold';
-    src: url(https://www.joelcarrouche.com/fonts/norse);
+    src: url(./fonts/Norse-Bold.otf) format('opentype');
 }
-
-font-family: 'Norse Bold', Arial, sans-serif;
+body {
+    margin: 0; 
+    gap: 0;             
+}
 
 .page {
     display: flex;
     flex-direction: row;
-    
+    width: 100vw;           
+    height: 100vh;
+}
+
+.image {
+    width: 35vw;            
+    height: 100%;
+}
+
+.background-image {
+    width: 100%;            
+    height: 100%; 
+}
+
+.form {
+    flex: 1;    
 }
